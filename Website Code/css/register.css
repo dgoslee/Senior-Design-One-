@@ -1,0 +1,90 @@
+#title
+{
+	color: silver;
+	font-size: 100px;
+  	position: relative;
+  	font-family: sans-serif;
+  	text-transform: uppercase;
+  	font-size: 2em;
+  	letter-spacing: 4px;
+  	overflow: hidden;
+ 	background: linear-gradient(90deg, #000, #fff, #000);
+  	background-repeat: no-repeat;
+  	background-size: 80%;
+  	animation: animate 3s linear infinite;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+body
+{	
+	background-color: darkred;
+	font-family: "Lora", serif;
+  	font-size: 1.0rem;
+  	font-style: normal;
+  	font-weight: normal;
+  	line-height: 1.0;
+  	color: white;											
+}
+
+.login-page
+{
+	width: 360 px;
+	padding: 10% 0 0;
+	margin auto;
+}
+
+.form
+{
+	position: relative;
+	z-index: 1;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form input 
+{
+	font-family: "Roboto", "sans-serif";
+	outline: 1;
+	width: 100%;
+	border: 1px solid #5E6E66;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+#title
+{
+	color: silver;														
+																		
+	font-size: 60px;
+
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+
+.gallery {
+
+	width: 700px;
+	height: 350px;
+}

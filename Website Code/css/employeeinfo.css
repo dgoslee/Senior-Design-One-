@@ -1,0 +1,76 @@
+/*Title properties*/
+#title
+{
+	color: silver;
+  	position: relative;
+  	font-family: sans-serif;
+  	text-transform: uppercase;
+  	font-size: 2em;
+  	letter-spacing: 4px;
+  	overflow: hidden;
+ 	background: linear-gradient(90deg, #000, #fff, #000);
+  	background-repeat: no-repeat;
+  	background-size: 80%;
+  	animation: animate 3s linear infinite;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+/*Body properties*/
+body
+{
+  background: darkred;
+  font-family: "Lora", serif;
+  font-size: 1.0rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.0;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+/*Properties of the menu*/
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a 
+{
+	color: silver;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roberto", sans-serif;
+	font-size: 15px;
+}
+/*Active page has a solid black line around it's name*/
+.main-nav li.active a
+{
+	border: 1px solid black;
+}
+/*When cursor is over a name in the menu, it will have a white line around it*/
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+/*Properties of title of page*/
+.Info
+{
+	color: silver;
+	font-size: 40px;
+	font-weight: bold;
+}

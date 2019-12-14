@@ -1,0 +1,85 @@
+#title
+{
+	color: silver;
+  	position: relative;
+  	font-family: sans-serif;
+  	text-transform: uppercase;
+  	font-size: 2em;
+  	letter-spacing: 4px;
+  	overflow: hidden;
+ 	background: linear-gradient(90deg, #000, #fff, #000);
+  	background-repeat: no-repeat;
+  	background-size: 80%;
+  	animation: animate 3s linear infinite;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+body
+{
+	background-color: darkred;
+  	font-family: "Lora", serif;
+  	font-size: 1.0rem;
+  	font-style: normal;
+  	font-weight: normal;
+  	line-height: 1.0;
+  	color: white;
+  	margin: 0;
+  	padding: 0;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a 
+{
+	color: silver;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roberto", sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+	border: 1px solid black;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.Readings
+{
+	color: silver;
+	font-size: 40px;
+	font-weight: bold;
+}
+.MotionSensor
+{
+	font-size: 25px;
+}
+.Detected
+{
+	font-size: 30px;
+	width: 100px;
+	height: 35px;
+	background-color: red;
+	visibility: hidden;
+}

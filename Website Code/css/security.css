@@ -1,0 +1,12 @@
+#title
+{
+	color: silver;														/* Identifies the color and the font of the title. 
+																		"#" specifies that the title is an ID */
+	font-size: 60px;
+
+}
+
+
+body
+{	background-color: darkred;											/* Identifies the color of the background */
+}

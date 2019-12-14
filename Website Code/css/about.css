@@ -1,0 +1,90 @@
+#title
+{
+	color: silver;
+  	position: relative;
+  	font-family: sans-serif;
+  	text-transform: uppercase;
+  	font-size: 2em;
+  	letter-spacing: 4px;
+  	overflow: hidden;
+ 	background: linear-gradient(90deg, #000, #fff, #000);
+  	background-repeat: no-repeat;
+  	background-size: 80%;
+  	animation: animate 3s linear infinite;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+body
+{
+  background: darkred;
+  font-family: "Lora", serif;
+  font-size: 1.0rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.0;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-nav																/* "." specifies that the main nav is a class */
+{
+	float: right;														/* "float" gives the location of this list with respect to the screen */
+	list-style: none;
+	margin-top: 30px;													/* Sets the space from the top of the screen to the list */
+}
+.main-nav li
+{
+	display: inline-block;												/* Makes the list horizontal */
+}
+
+.main-nav li a  														/* Characteristics of the main navigation. Color, size, font
+																		and decoration */
+{
+	color: silver;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roberto", sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a 													/* Creates a solid black box around whichever item in the list
+																		is active */
+{
+	border: 1px solid black;
+}
+
+.main-nav li a:hover 													/* Creates a solid white box around whichever item in the list the
+																	    cursor is hovering over */
+{
+	border: 1px solid white;
+}
+
+#system
+{
+	margin-left: 300px;
+  	width: 50%;
+  	padding: 10px;
+  	transform: rotate(270deg);
+}
+
+.About																	/* Desribes the size and color of the "About" label */
+{
+	color: silver;
+	font-size: 40px;
+	font-weight: bold;
+}
+.Info
+{
+	font-size: 25px;
+}
